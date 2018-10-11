@@ -35,3 +35,21 @@ a: hover {
   color: #3f1622
   text-decoration: underline;
 }
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
+
+blockquote:first {
+  font-size: 1.51rem
+  font-weight: bold;
+  font-style: italic;
+  color: #222;
+  font-family: "PT Sans", sans-serif;
+}
+
+figure + p {
+  font-size: 1.25rem;
+
+}
