@@ -20,3 +20,18 @@ nav ol li {
   font-size: 1rem;
   font-weight: bold;
 }
+
+li a{
+  color: #8f2448;
+  font-family: "PT Sans", sans-serif;
+}
+
+li a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+a: hover {
+  color: #3f1622
+  text-decoration: underline;
+}
