@@ -2,7 +2,7 @@ body {
   background-color: #c9b5ab;
   line-height: 1.5;
   font-weight: normal;
-  font-family: "PT sans", sans-serif;
+  font-family: "PT+Serif";
 }
 
 header, footer {
@@ -10,10 +10,17 @@ header, footer {
   font-weight: bold;
 }
 
-h1, h2 {
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #3f1622;
-  textsize: 1.5rem;
-  font-family: "PT sans", bold;
+}
+
+h2 {
+  color: #3f1622;
+  font-size: 1.125rem;
+  font-family: "PT sans";
+  font-weight: bold;
 }
 
 nav ol li {
@@ -31,9 +38,14 @@ li a:hover {
   text-decoration: underline;
 }
 
-a: hover {
-  color: #3f1622
-  text-decoration: underline;
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
 }
 
 figcaption {
@@ -42,7 +54,7 @@ figcaption {
 }
 
 blockquote:first {
-  font-size: 1.51rem
+  font-size: 1.51rem;
   font-weight: bold;
   font-style: italic;
   color: #222;
@@ -57,7 +69,7 @@ figure + p {
 }
 
 img {
-  width: 100;
+  width: 100%;
 }
 
 .mainmenu {
